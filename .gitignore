@@ -1,0 +1,17 @@
+# The organisers' repository is cloned here by each user (see README). It has its own git
+# history and holds the match data, which is licensed for the competition only.
+more-than-a-hack-2027/
+futbol_data/
+data/
+
+# Derived from the match data (parsed tracking, labels, scores). Not redistributable either.
+cache/
+scores/
+*.csv
+*.npy
+*.npz
+
+# Editor and Python leftovers. Jupyter writes *-checkpoint.* copies into .ipynb_checkpoints/.
+.ipynb_checkpoints/
+*-checkpoint.*
+__pycache__/

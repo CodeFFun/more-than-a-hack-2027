@@ -1,0 +1,6 @@
+# Needed to regenerate Topi.csv (python -m topi.run) and to run the official scorer.
+numpy==2.5.2
+pandas==2.2.2
+
+# Only for main.ipynb
+notebook
